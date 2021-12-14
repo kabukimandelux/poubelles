@@ -30,6 +30,8 @@ for i in range(len(scrape)):
 
 #print (*result, sep='\n')
 
+# // This part of the function is used if you want to return information only if there is a collect the next day
+ 
 today = datetime.today().strftime("%d")
 tomorrow = datetime.today() + timedelta(1)
 
