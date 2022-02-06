@@ -5,7 +5,7 @@ from datetime import timedelta, datetime
 
 # Change the tour number depending on your address
 
-soup = BeautifulSoup(requests.get('https://administration.esch.lu/dechets/?street=73&tour=1').content,'html.parser')
+soup = BeautifulSoup(requests.get('https://administration.esch.lu/dechets/?street=xx&tour=X').content,'html.parser')
 
 scrape = []
 result = []
